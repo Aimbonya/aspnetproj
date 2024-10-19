@@ -1,0 +1,71 @@
+﻿@{
+	ViewBag.Title = "Index";
+}
+
+        <h1>@ViewData["TitleText"]</h1>
+
+        <!-- Упорядоченный список -->
+        <h3>Список</h3>
+        <ol type="A">
+            @for (int i = 1; i < 7; i++)
+            {
+                @:<li>элемент @(i) списка</li> 
+            }
+        </ol>
+
+        <!-- Форма -->
+        <h3>Форма</h3>
+        <form method="post">
+
+            <div class="form-group">
+                <label for="demoSelect">Выберите элемент:</label>
+                <select id="demoSelect" name="selectedItem" class="form-control">
+                <option value="">-- Выберите --</option>
+                @foreach (var item in (SelectList)ViewData["DemoList"])
+                {
+                     <option value="@item.Value">@item.Text</option>
+                }
+                </select>
+            </div>
+ 
+            <div class="form-check mb-2">
+        <input class="form-check-input"type="checkbox" name="checkbox1" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">Чек-бокс 1</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" name="checkbox2" id="checkbox2">
+                <label class="form-check-label" for="checkbox2">Чек-бокс 2</label>
+            </div>
+
+
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio1" value="option1">
+                <label class="form-check-label" for="radio1">Радио-1</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio2" value="option2">
+                <label class="form-check-label" for="radio2">Радио-2</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio3" value="option3">
+                <label class="form-check-label" for="radio3">Радио-3</label>
+            </div>
+
+    
+            <div class="mb-3 row">
+                <label for="login" class="col-sm-2 col-form-label">Логин:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="login" id="login" placeholder="Введите имя">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="password" class="col-sm-2 col-form-label" >Пароль:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль">
+                </div>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+   

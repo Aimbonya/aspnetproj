@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\253501_mammadov.API.props" />
+</Project>
