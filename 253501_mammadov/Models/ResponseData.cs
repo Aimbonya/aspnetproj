@@ -5,7 +5,8 @@ namespace _253501_mammadov.Models
     public class ResponseData<T>
     {
         public T? Data { get; set; }
-        public bool Successfull { get; set; } = true;
+        public bool Successful { get; set; } = true;
+
        
         public string? ErrorMessage { get; set; }
         
@@ -19,7 +20,7 @@ namespace _253501_mammadov.Models
             return new ResponseData<T>
             {
                 ErrorMessage = message,
-                Successfull = false,
+                Successful = false,
                 Data = data
             };
         }

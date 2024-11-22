@@ -1,31 +1,52 @@
-﻿@model DateTime
+﻿@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.Cookies
+@inject IHttpContextAccessor HttpContextAccessor
+
+@model DateTime
+
 @await Component.InvokeAsync("Cart")
 
 <div class="dropdown ms-4 nav-color">
-    <button action="Cart/Index" class="btn btn-secondary dropdown-toggle"
-            type="button" id="dropdownMenuButton"
-            data-bs-toggle="dropdown"
-            aria-expanded="false">
-        User@gmail.com
-        <img src="images/kekw.png" width="30"
-             alt="User" class="rounded nav-color" />
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <li>
-            <span class="dropdown-item-text">
-                <img src="images/kekw.png"
-                     width="50" alt="User" class="rounded" />
-                user@gmail.com
-            </span>
-        </li>
-        <li><hr class="dropdown-divider"></li>
-        <li>
-            <form id="logoutForm" class="form-inline" method="post">
-                <button action="Account/Logout" id="logout" type="submit" class="nav-link
-                                                                            btn btn-link text-dark">
-                    Logout
-                </button>
-            </form>
-        </li>
-    </ul>
+    @if (HttpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+    {
+        <!-- Если пользователь аутентифицирован -->
+        <button class="btn btn-secondary dropdown-toggle"
+                type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+            @HttpContextAccessor.HttpContext.User.Identity.Name
+            <img src="@HttpContextAccessor.HttpContext.User.FindFirst("picture")?.Value ?? " images /kekw.png""
+                 width="30"
+                 alt="User" class="rounded nav-color" />
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li>
+                <span class="dropdown-item-text">
+                    <img src="@HttpContextAccessor.HttpContext.User.FindFirst("picture")?.Value ?? " images /kekw.png""
+                         width="50" alt="User" class="rounded" />
+                    @HttpContextAccessor.HttpContext.User.FindFirst("email")?.Value ?? "No email"
+                </span>
+            </li>
+            <li><hr class="dropdown-divider"></li>
+            <li>
+                <form id="logoutForm" class="form-inline" method="post" action="@Url.Action("Logout", "Account")">
+                    <button type="submit" class="nav-link btn btn-link text-dark">
+                        Logout
+                    </button>
+                </form>
+            </li>
+        </ul>
+    }
+    else
+    {
+        <!-- Если пользователь не аутентифицирован -->
+        <a class="btn btn-secondary"
+           href="@Url.Action("Login", "Account")">
+            Login
+        </a>
+        <a class="btn btn-secondary ms-2"
+           href="@Url.Action("Register", "Account")">
+            Register
+        </a>
+    }
 </div>

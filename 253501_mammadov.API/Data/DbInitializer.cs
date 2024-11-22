@@ -13,10 +13,9 @@ namespace _253501_mammadov.API.Data
             var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
             await context.Database.MigrateAsync();
 
-            // Если БД только что создана, заполняем ее начальными данными
+           
             if (!context.Fruits.Any() && !context.Categories.Any())
                 {
-                    // Добавляем категории
                     var categories = new List<Category>
                     {
                         new Category { Name="Цитрусовые", NormalizedName="citrus-fruits" },
@@ -27,7 +26,6 @@ namespace _253501_mammadov.API.Data
                     await context.Categories.AddRangeAsync(categories);
                     await context.SaveChangesAsync();
 
-                    // Добавляем фрукты
                     var fruits = new List<Fruit>
                     {
                         new Fruit { Name = "Апельсин", Description = "Сочный цитрусовый фрукт", Price = 120, Image = "Images/orange.jpg", ImageMimeType = "image/jpeg", Category = categories[0] },

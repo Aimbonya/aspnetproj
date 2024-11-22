@@ -38,7 +38,6 @@ namespace _253501_mammadov.API.Controllers
             [HttpPost]
             public async Task<ActionResult<Category>> PostCategory(Category category)
             {
-                // Добавление категории в базу данных через сервис
                 _context.Categories.Add(category);
                 await _context.SaveChangesAsync();
 

@@ -12,9 +12,9 @@ namespace _253501_mammadov.API.Services
 
         public Task<ResponseData<Fruit>> GetProductByIdAsync(int id);
 
-        public Task UpdateProductAsync(int id, Fruit product, IFormFile? formFile);
+        public Task<ResponseData<Fruit>> UpdateProductAsync(int id, Fruit product);
 
-        public Task DeleteProductAsync(int id);
+        public Task<ResponseData<bool>> DeleteProductAsync(int id);
 
         public Task<ResponseData<Fruit>> CreateProductAsync(Fruit product, IFormFile? formFile);
 
@@ -24,6 +24,6 @@ namespace _253501_mammadov.API.Services
         /// <param name="id">Id объекта</param>
         /// <param name="formFile">файл изображения</param>
         /// <returns>Url к файлу изображения</returns
-        public Task<ResponseData<string>> SaveImageAsync(int id, IFormFile formFile);
+        public Task<ResponseData<string?>> SaveImageAsync(IFormFile formFile);
     }
 }

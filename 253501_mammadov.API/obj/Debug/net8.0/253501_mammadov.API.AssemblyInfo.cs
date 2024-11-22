@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("253501_mammadov.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3e42a66a8bcfad1ffd2a26465e2e560001b9c70")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b866a09cfe48721596b4da507233e7118ed7256f")]
 [assembly: System.Reflection.AssemblyProductAttribute("253501_mammadov.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("253501_mammadov.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FD/gJVO1efvAdXjs08FW8t+G5qEmouD5qdmP8qvKLTg=",
+  "Hash": "E5WavLvbMijJ1QSqiIkLgyconlDSrr/faeSEcMPpJ+U=",
   "Source": "253501_mammadov",
   "BasePath": "_content/253501_mammadov",
   "Mode": "Default",
@@ -91,25 +91,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\wwwroot\\Images\\kekw.png",
-      "SourceId": "253501_mammadov",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\wwwroot\\",
-      "BasePath": "_content/253501_mammadov",
-      "RelativePath": "Images/kekw.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\kekw.png"
     },
     {
       "Identity": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\wwwroot\\js\\site.js",

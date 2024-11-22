@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\wwwroot\\Images\\apple.jpg",
+      "PackagePath": "staticwebassets\\Images\\apple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\wwwroot\\Images\\apricot.jpg",
+      "PackagePath": "staticwebassets\\Images\\apricot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\wwwroot\\Images\\blueberry.jpg",
+      "PackagePath": "staticwebassets\\Images\\blueberry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\wwwroot\\Images\\grapefruit.jpg",
+      "PackagePath": "staticwebassets\\Images\\grapefruit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\wwwroot\\Images\\lemon.jpg",
+      "PackagePath": "staticwebassets\\Images\\lemon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\wwwroot\\Images\\m124j3qx.png",
+      "PackagePath": "staticwebassets\\Images\\m124j3qx.png"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\wwwroot\\Images\\mango.jpg",
+      "PackagePath": "staticwebassets\\Images\\mango.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\wwwroot\\Images\\orange.jpg",
+      "PackagePath": "staticwebassets\\Images\\orange.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\wwwroot\\Images\\peach.jpg",
+      "PackagePath": "staticwebassets\\Images\\peach.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\wwwroot\\Images\\pineapple.jpg",
+      "PackagePath": "staticwebassets\\Images\\pineapple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\wwwroot\\Images\\raspberry.jpg",
+      "PackagePath": "staticwebassets\\Images\\raspberry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\wwwroot\\Images\\strawberry.jpg",
+      "PackagePath": "staticwebassets\\Images\\strawberry.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.253501_mammadov.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.253501_mammadov.API.props",
+      "PackagePath": "build\\253501_mammadov.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.253501_mammadov.API.props",
+      "PackagePath": "buildMultiTargeting\\253501_mammadov.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.253501_mammadov.API.props",
+      "PackagePath": "buildTransitive\\253501_mammadov.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

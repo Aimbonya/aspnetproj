@@ -1,9 +1,11 @@
-namespace _253501_mammadov.Models
+﻿namespace _253501_mammadov.Models
 {
-    public class ErrorViewModel
-    {
-        public string? RequestId { get; set; }
+	public class ErrorViewModel
+	{
+		// Свойство для хранения уникального идентификатора ошибки
+		public string? RequestId { get; set; }
 
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
-    }
+		// Флаг, показывающий, следует ли отображать идентификатор ошибки
+		public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+	}
 }

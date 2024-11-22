@@ -24,6 +24,6 @@
         public int CategoryId { get; set; }
 
         // Навигационное свойство для категории
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
     }
 }

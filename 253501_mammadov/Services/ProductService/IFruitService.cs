@@ -9,10 +9,10 @@ namespace _253501_mammadov.Services.ProductService
 
         public Task<ResponseData<Fruit>> GetProductByIdAsync(int id);
 
-        public Task UpdateProductAsync(int id, Fruit product, IFormFile? formFile);
+        public Task<ResponseData<Fruit>> UpdateProductAsync(int id, Fruit product, IFormFile? formFile);
 
-        public Task DeleteProductAsync(int id);
+        public Task<ResponseData<Fruit>> DeleteProductAsync(int id);
 
-        public Task<ResponseData<Fruit>> CreateProductAsync(Fruit product, IFormFile? formFile);
+        public Task<ResponseData<Fruit>> CreateProductAsync(Fruit product);
     }
 }

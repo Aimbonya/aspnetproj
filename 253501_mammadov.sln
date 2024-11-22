@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "253501_mammadov", "253501_m
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mammadov.Domain", "mammadov.Domain\mammadov.Domain.csproj", "{427A3B30-9B3B-4239-95B9-BF67569A8CD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "253501_mammadov.API", "253501_mammadov.API\253501_mammadov.API.csproj", "{DD498EDC-34DD-46BE-8CA6-1C98C093EA01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "253501_mammadov.API", "253501_mammadov.API\253501_mammadov.API.csproj", "{DD498EDC-34DD-46BE-8CA6-1C98C093EA01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

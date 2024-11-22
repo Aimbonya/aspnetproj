@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace _253501_mammadov.Services.ProductService
 {
-    public class MemoryProductService : IFruitService
+    public class MemoryProductService
     {
 
         private readonly int _pageSize;
@@ -100,7 +100,7 @@ namespace _253501_mammadov.Services.ProductService
                 TotalPages = (int)Math.Ceiling((double)totalItems / _pageSize)
             };
 
-            return new ResponseData<ListModel<Fruit>> { Data = listModel, Successfull = true };
+            return new ResponseData<ListModel<Fruit>> { Data = listModel, Successful = true };
         }
 
 
