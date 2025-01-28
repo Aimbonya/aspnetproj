@@ -1,0 +1,51 @@
+﻿﻿@using mammadov.Domain.Entities
+@using mammadov.BlazorWasm.Services
+@inject IDataService DataService
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        @if (DataService.SelectedCategory != null)
+        {
+            @DataService.SelectedCategory.Name
+        }
+        else
+        {
+            <span>Select Category</span>
+        }
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        @if (DataService.Categories.Any())
+        {
+            @foreach (var category in DataService.Categories)
+            {
+                <li>
+                    <a class="dropdown-item" @onclick="() => OnCategorySelected(category)">
+                        @category.Name
+                    </a>
+                </li>
+            }
+        }
+        else
+        {
+            <li><a class="dropdown-item" href="javascript:void(0);">Loading categories...</a></li>
+        }
+    </ul>
+</div>
+
+@code {
+    private void OnCategorySelected(Category category)
+    {
+        DataService.SetSelectedCategory(category);  // Устанавливаем выбранную категорию
+    }
+
+    protected override void OnInitialized()
+    {
+        DataService.DataLoaded += StateHasChanged; // Обновляем компонент, когда данные загружены
+        DataService.GetCategoryListAsync();  // Загружаем категории при инициализации
+    }
+
+    public void Dispose()
+    {
+        DataService.DataLoaded -= StateHasChanged; // Отписываемся от события при уничтожении компонента
+    }
+}

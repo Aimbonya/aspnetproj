@@ -1,3 +1,10 @@
-﻿<a href="#" class="navbar-text ms-auto">
-    @Model.TotalAmount руб <i class="fa-solid fa-cart-shopping"></i> (@Model.ItemCount)
-</a>
+﻿@model mammadov.Domain.Entities.Cart
+
+@if (Model.Count == 0)
+{
+    <span style="color: grey;"><a asp-controller="Cart" asp-action="ToCart">Корзина пустая</a></span>
+}
+else
+{
+    <span style="color: grey;"><a asp-controller="Cart" asp-action="ToCart">Корзина: @Model.Count товар(ов)</a></span>
+}

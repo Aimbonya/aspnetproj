@@ -1,0 +1,22 @@
+﻿@using mammadov.Domain.Entities
+
+<h3>Selected</h3>
+
+@if (SelectedFruit != null)
+{
+    <div>
+        <h4>@SelectedFruit.Name</h4>
+        <p><strong>Description:</strong> @SelectedFruit.Description</p>
+        <p><strong>Price:</strong> @SelectedFruit.Price</p>
+        <p><strong>Category:</strong> @SelectedFruit.CategoryId</p>
+    </div>
+}
+else
+{
+    <p>Please select a Detail to view details.</p>
+}
+
+@code {
+   
+    [Parameter] public Fruit SelectedFruit { get; set; }
+}

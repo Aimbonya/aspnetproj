@@ -33,7 +33,6 @@ namespace _253501_mammadov.Admin.Pages
             {
                 Products = response.Data?.Items ?? new List<Fruit>();
                 TotalPages = response.Data?.TotalPages ?? 0;
-
             }
         }
     }

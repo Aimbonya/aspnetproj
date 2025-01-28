@@ -1,0 +1,55 @@
+﻿﻿@using mammadov.BlazorWasm.Services
+@using mammadov.Domain.Entities
+@inject IDataService DataService
+
+@if (DataService.TotalPages > 1)
+{
+    <div class="pagination">
+        @if (DataService.CurrentPage > 1)
+        {
+            <button class="btn btn-primary" @onclick="() => ChangePage(DataService.CurrentPage - 1)">Previous</button>
+        }
+
+        @for (int i = 1; i <= DataService.TotalPages; i++)
+        {
+            <button class="btn @(i == DataService.CurrentPage ? "btn-success" : "btn-outline-primary")"
+                    @onclick="() => ChangePage(i)">
+                @i
+            </button>
+        }
+
+        @if (DataService.CurrentPage < DataService.TotalPages)
+        {
+            <button class="btn btn-primary" @onclick="() => ChangePage(DataService.CurrentPage + 1)">Next</button>
+        }
+    </div>
+}
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadPageData(1);
+    }
+
+    private async Task ChangePage(int pageNumber)
+    {
+        if (pageNumber < 1 || pageNumber > DataService.TotalPages || pageNumber == DataService.CurrentPage)
+            return;
+
+        await LoadPageData(pageNumber);
+    }
+
+    private async Task LoadPageData(int pageNumber)
+    {
+        await DataService.GetFruitsListAsync(pageNumber);
+
+        if (DataService.Success)
+        {
+            StateHasChanged();
+        }
+        else
+        {
+            Console.WriteLine(DataService.ErrorMessage ?? "Error fetching data.");
+        }
+    }
+}

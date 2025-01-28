@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mammadov.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b866a09cfe48721596b4da507233e7118ed7256f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b43e6ccd73cc6b2debe1b230a4d087a4068bf195")]
 [assembly: System.Reflection.AssemblyProductAttribute("mammadov.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mammadov.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

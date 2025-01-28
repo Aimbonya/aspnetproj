@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD498EDC-34DD-46BE-8CA6-1C98C093EA01}|253501_mammadov.API\\253501_mammadov.API.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\253501_mammadov.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD498EDC-34DD-46BE-8CA6-1C98C093EA01}|253501_mammadov.API\\253501_mammadov.API.csproj|solutionrelative:253501_mammadov.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\mammadov.blazorwasm\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|solutionrelative:mammadov.blazorwasm\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB6CB8D-4126-47C3-8506-36EA3017AC2F}|253501_mammadov\\253501_mammadov.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\253501_mammadov\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB6CB8D-4126-47C3-8506-36EA3017AC2F}|253501_mammadov\\253501_mammadov.csproj|solutionrelative:253501_mammadov\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\mammadov.blazorwasm\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|solutionrelative:mammadov.blazorwasm\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB6CB8D-4126-47C3-8506-36EA3017AC2F}|253501_mammadov\\253501_mammadov.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\253501_mammadov\\areas\\admin\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB6CB8D-4126-47C3-8506-36EA3017AC2F}|253501_mammadov\\253501_mammadov.csproj|solutionrelative:253501_mammadov\\areas\\admin\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\mammadov.blazorwasm\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|solutionrelative:mammadov.blazorwasm\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB6CB8D-4126-47C3-8506-36EA3017AC2F}|253501_mammadov\\253501_mammadov.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\253501_mammadov\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FEB6CB8D-4126-47C3-8506-36EA3017AC2F}|253501_mammadov\\253501_mammadov.csproj|solutionrelative:253501_mammadov\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\mammadov.blazorwasm\\pages\\categoryselector.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|solutionrelative:mammadov.blazorwasm\\pages\\categoryselector.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD498EDC-34DD-46BE-8CA6-1C98C093EA01}|253501_mammadov.API\\253501_mammadov.API.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\253501_mammadov.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DD498EDC-34DD-46BE-8CA6-1C98C093EA01}|253501_mammadov.API\\253501_mammadov.API.csproj|solutionrelative:253501_mammadov.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\mammadov.blazorwasm\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|solutionrelative:mammadov.blazorwasm\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB6CB8D-4126-47C3-8506-36EA3017AC2F}|253501_mammadov\\253501_mammadov.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\253501_mammadov\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB6CB8D-4126-47C3-8506-36EA3017AC2F}|253501_mammadov\\253501_mammadov.csproj|solutionrelative:253501_mammadov\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\mammadov.blazorwasm\\pages\\fruits.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|solutionrelative:mammadov.blazorwasm\\pages\\fruits.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB6CB8D-4126-47C3-8506-36EA3017AC2F}|253501_mammadov\\253501_mammadov.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\253501_mammadov\\extensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB6CB8D-4126-47C3-8506-36EA3017AC2F}|253501_mammadov\\253501_mammadov.csproj|solutionrelative:253501_mammadov\\extensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\mammadov.blazorwasm\\services\\idataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|solutionrelative:mammadov.blazorwasm\\services\\idataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEB6CB8D-4126-47C3-8506-36EA3017AC2F}|253501_mammadov\\253501_mammadov.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\253501_mammadov\\helperclasses\\keycloakdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEB6CB8D-4126-47C3-8506-36EA3017AC2F}|253501_mammadov\\253501_mammadov.csproj|solutionrelative:253501_mammadov\\helperclasses\\keycloakdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\mammadov.blazorwasm\\pages\\fruitdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|solutionrelative:mammadov.blazorwasm\\pages\\fruitdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|c:\\users\\home\\source\\repos\\253501_mammadov\\mammadov.blazorwasm\\pages\\objectlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96C52451-2E94-45DD-B715-15ED198B06EC}|mammadov.BlazorWasm\\mammadov.BlazorWasm.csproj|solutionrelative:mammadov.blazorwasm\\pages\\objectlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 348,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,103 +57,118 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\Program.cs",
-              "RelativeDocumentMoniker": "253501_mammadov.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\Program.cs",
-              "RelativeToolTip": "253501_mammadov.API\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T20:39:11.333Z",
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "mammadov.BlazorWasm\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Pages\\Counter.razor",
+              "RelativeToolTip": "mammadov.BlazorWasm\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T07:18:53.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\appsettings.json",
-              "RelativeDocumentMoniker": "253501_mammadov\\appsettings.json",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\appsettings.json",
-              "RelativeToolTip": "253501_mammadov\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-22T19:30:05.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\appsettings.json",
-              "RelativeDocumentMoniker": "253501_mammadov.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov.API\\appsettings.json",
-              "RelativeToolTip": "253501_mammadov.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-22T19:29:55.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "253501_mammadov\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "253501_mammadov\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:31:28.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "KeyCloakData.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\HelperClasses\\KeyCloakData.cs",
-              "RelativeDocumentMoniker": "253501_mammadov\\HelperClasses\\KeyCloakData.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\HelperClasses\\KeyCloakData.cs",
-              "RelativeToolTip": "253501_mammadov\\HelperClasses\\KeyCloakData.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:28:19.072Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\Program.cs",
-              "RelativeDocumentMoniker": "253501_mammadov\\Program.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\Program.cs",
-              "RelativeToolTip": "253501_mammadov\\Program.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAcwFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T14:24:04.753Z",
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "mammadov.BlazorWasm\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\wwwroot\\index.html",
+              "RelativeToolTip": "mammadov.BlazorWasm\\wwwroot\\index.html",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-06T23:11:07.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\Areas\\Admin\\Pages\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "253501_mammadov\\Areas\\Admin\\Pages\\Edit.cshtml.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\Areas\\Admin\\Pages\\Edit.cshtml.cs",
-              "RelativeToolTip": "253501_mammadov\\Areas\\Admin\\Pages\\Edit.cshtml.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAowDYAAAAIAAAAAAAAAA==",
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\_Imports.razor",
+              "RelativeDocumentMoniker": "mammadov.BlazorWasm\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\_Imports.razor",
+              "RelativeToolTip": "mammadov.BlazorWasm\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T23:10:59.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FruitDetails.razor",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Pages\\FruitDetails.razor",
+              "RelativeDocumentMoniker": "mammadov.BlazorWasm\\Pages\\FruitDetails.razor",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Pages\\FruitDetails.razor",
+              "RelativeToolTip": "mammadov.BlazorWasm\\Pages\\FruitDetails.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T22:55:06.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategorySelector.razor",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Pages\\CategorySelector.razor",
+              "RelativeDocumentMoniker": "mammadov.BlazorWasm\\Pages\\CategorySelector.razor",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Pages\\CategorySelector.razor",
+              "RelativeToolTip": "mammadov.BlazorWasm\\Pages\\CategorySelector.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T22:49:10.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "mammadov.BlazorWasm\\Services\\DataService.cs",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Services\\DataService.cs",
+              "RelativeToolTip": "mammadov.BlazorWasm\\Services\\DataService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAtwEgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:05:32.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T22:36:00.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Fruits.razor",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Pages\\Fruits.razor",
+              "RelativeDocumentMoniker": "mammadov.BlazorWasm\\Pages\\Fruits.razor",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Pages\\Fruits.razor",
+              "RelativeToolTip": "mammadov.BlazorWasm\\Pages\\Fruits.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAtwBsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T00:14:53.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ObjectList.razor",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Pages\\ObjectList.razor",
+              "RelativeDocumentMoniker": "mammadov.BlazorWasm\\Pages\\ObjectList.razor",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Pages\\ObjectList.razor",
+              "RelativeToolTip": "mammadov.BlazorWasm\\Pages\\ObjectList.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T23:54:04.562Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HostingExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\Extensions\\HostingExtensions.cs",
-              "RelativeDocumentMoniker": "253501_mammadov\\Extensions\\HostingExtensions.cs",
-              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\253501_mammadov\\Extensions\\HostingExtensions.cs",
-              "RelativeToolTip": "253501_mammadov\\Extensions\\HostingExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABMAAAAAAAAAA==",
+              "Title": "IDataServices.cs",
+              "DocumentMoniker": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Services\\IDataServices.cs",
+              "RelativeDocumentMoniker": "mammadov.BlazorWasm\\Services\\IDataServices.cs",
+              "ToolTip": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.BlazorWasm\\Services\\IDataServices.cs",
+              "RelativeToolTip": "mammadov.BlazorWasm\\Services\\IDataServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T22:21:52.12Z"
+              "WhenOpened": "2024-12-06T00:10:36.767Z"
             }
           ]
         }

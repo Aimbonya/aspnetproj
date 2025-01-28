@@ -1,0 +1,61 @@
+﻿@using mammadov.BlazorWasm.Services
+@using mammadov.Domain.Entities
+@inject IDataService DataService
+@implements IDisposable
+
+<h3>Fruit List</h3>
+
+@if (DataService.Fruits == null || !DataService.Fruits.Any())
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var fruit in DataService.Fruits)
+            {
+                <tr>
+                    <td>@fruit.Name</td>
+                    <td>@fruit.Description</td>
+                    <td>@fruit.Price</td>
+                    <td>@fruit.CategoryId</td>
+                    <td>
+                        <!-- Кнопка для выбора объекта -->
+                        <button class="btn btn-info" @onclick="() => OnFruitSelected(fruit.Id)">
+                            🔍
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter] public EventCallback<int> SelectedFruit { get; set; }
+
+    protected override void OnInitialized()
+    {
+        DataService.DataLoaded += StateHasChanged; 
+    }
+    
+    private void OnFruitSelected(int id)
+    {
+        SelectedFruit.InvokeAsync(id);
+    }
+
+    public void Dispose()
+    {
+        DataService.DataLoaded -= StateHasChanged; 
+    }
+}

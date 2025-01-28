@@ -1,0 +1,981 @@
+2024-11-30 21:17:49.179 +03:00 [INF] User profile is available. Using 'C:\Users\Home\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 21:17:49.634 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-30 21:17:49.635 +03:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 21:17:49.671 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 21:17:49.679 +03:00 [INF] Hosting environment: Development
+2024-11-30 21:17:49.682 +03:00 [INF] Content root path: C:\Users\Home\source\repos\253501_mammadov\253501_mammadov
+2024-11-30 21:17:51.095 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-30 21:17:51.435 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:17:51.472 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller _253501_mammadov.Controllers.Home (253501_mammadov).
+2024-11-30 21:17:51.490 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 21:17:53.934 +03:00 [INF] Executed ViewResult - view Index executed in 2448.5404ms.
+2024-11-30 21:17:53.938 +03:00 [INF] Executed action _253501_mammadov.Controllers.Home.Index (253501_mammadov) in 2462.3766ms
+2024-11-30 21:17:53.945 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:17:53.952 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 2866.2307ms
+2024-11-30 21:17:53.987 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-30 21:17:53.996 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/js/site.js?v=kX1zETlew_kP_HVd_9mUoEa9vgrGAfE0Bo5toPGf5Fo - null null
+2024-11-30 21:17:54.004 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 17.2764ms
+2024-11-30 21:17:54.012 +03:00 [INF] The file /js/site.js was not modified
+2024-11-30 21:17:54.015 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/js/site.js?v=kX1zETlew_kP_HVd_9mUoEa9vgrGAfE0Bo5toPGf5Fo - 304 null text/javascript 18.9938ms
+2024-11-30 21:17:54.065 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2024-11-30 21:17:54.163 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.9416ms
+2024-11-30 21:23:23.220 +03:00 [INF] User profile is available. Using 'C:\Users\Home\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 21:23:23.927 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-30 21:23:24.307 +03:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 21:23:24.784 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 21:23:25.005 +03:00 [INF] Hosting environment: Development
+2024-11-30 21:23:25.012 +03:00 [INF] Content root path: C:\Users\Home\source\repos\253501_mammadov\253501_mammadov
+2024-11-30 21:23:25.200 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-30 21:23:25.666 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:23:25.729 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller _253501_mammadov.Controllers.Home (253501_mammadov).
+2024-11-30 21:23:25.763 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 21:23:26.022 +03:00 [INF] Executed ViewResult - view Index executed in 268.9256ms.
+2024-11-30 21:23:26.028 +03:00 [INF] Executed action _253501_mammadov.Controllers.Home.Index (253501_mammadov) in 290.8252ms
+2024-11-30 21:23:26.030 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:23:26.033 +03:00 [INF] Request GET / responded with status code 200. Response: <!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+	<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/site.css?v=bZNRibDcTR5K9GQPAB64mNHLUQhhzicW7xfs9ADAPSY" />
+	<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<!-- Панель навигации -->
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+				
+<div class="navbar-nav">
+    <a class="nav-item nav-link active" href="/">Лб 1</a>
+    <a class="nav-item nav-link " href="/Product">Каталог</a>
+    <a class="nav-item nav-link " href="/Admin">Администрирование</a>
+</div>
+				
+
+
+<div style="padding-left: 800px;" class="dropdown ms-4 nav-color">
+    <div>
+        
+    <span style="color: grey;"><a href="/Cart">Корзина пустая</a></span>
+
+    </div>
+        <!-- Если пользователь не аутентифицирован -->
+        <a  class="btn btn-secondary"
+           href="/Account/Login">
+            Login
+        </a>
+        <a  class="btn btn-secondary ms-2"
+           href="/Account/Register">
+            Register
+        </a>
+</div>
+
+			
+			</nav> <!-- Панель навигации - конец -->
+		</div><!-- container - конец -->
+	</header><!-- header - конец -->
+	<main class="container mt-3">		
+				
+        <h1>&#x41B;&#x430;&#x431;&#x43E;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x43D;&#x430;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430; &#x2116;2</h1>
+
+        <!-- Упорядоченный список -->
+        <h3>Список</h3>
+        <ol type="A">
+                <li>элемент 1 списка</li> 
+                <li>элемент 2 списка</li> 
+                <li>элемент 3 списка</li> 
+                <li>элемент 4 списка</li> 
+                <li>элемент 5 списка</li> 
+                <li>элемент 6 списка</li> 
+        </ol>
+
+        <!-- Форма -->
+        <h3>Форма</h3>
+        <form method="post">
+
+            <div class="form-group">
+                <label for="demoSelect">Выберите элемент:</label>
+                <select id="demoSelect" name="selectedItem" class="form-control">
+                <option value="">-- Выберите --</option>
+                     <option value="1">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 1</option>
+                     <option value="2">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 2</option>
+                     <option value="3">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 3</option>
+                </select>
+            </div>
+ 
+            <div class="form-check mb-2">
+        <input class="form-check-input"type="checkbox" name="checkbox1" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">Чек-бокс 1</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" name="checkbox2" id="checkbox2">
+                <label class="form-check-label" for="checkbox2">Чек-бокс 2</label>
+            </div>
+
+
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio1" value="option1">
+                <label class="form-check-label" for="radio1">Радио-1</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio2" value="option2">
+                <label class="form-check-label" for="radio2">Радио-2</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio3" value="option3">
+                <label class="form-check-label" for="radio3">Радио-3</label>
+            </div>
+
+    
+            <div class="mb-3 row">
+                <label for="login" class="col-sm-2 col-form-label">Логин:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="login" id="login" placeholder="Введите имя">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="password" class="col-sm-2 col-form-label" >Пароль:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль">
+                </div>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8Jnci-O9bXJClW5IBTX0VaSJFqH0oRJtTuO-CpAe29abMj2ynv7wHVgsLKucYbjIRm406mOP-kzAq4ih54Z2lbLInumltssSDwCCQaZyC4KLYx8Ww-iESymaKMDzetpo07xPCKVrQTo9UWDshI7c2kY" /></form>
+   	
+	</main>
+	<footer>
+		<div class="container">
+			<div class="navbar navbar-dark navbar-expand-md bg-dark">
+				<div class="navbar-nav ms-auto">
+					<a class="nav-item nav-link" href="http://www.facebook.com">
+						<i class="fa-brands fa-facebook-f fa-2x"></i>
+					</a>
+					<a class="nav-item nav-link" href="http://www.vk.com">
+						<i class="fa-brands fa-vk fa-2x"></i>
+					</a>
+					<a class="nav-item nav-link" href="http://www.twitter.com">
+						<i class="fa-brands fa-twitter fa-2x"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="/lib/jquery/dist/jquery.min.js"></script>
+	<script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="/js/site.js?v=kX1zETlew_kP_HVd_9mUoEa9vgrGAfE0Bo5toPGf5Fo"></script>
+	
+</body>
+</html>
+
+2024-11-30 21:23:26.049 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 0 text/html; charset=utf-8 858.5297ms
+2024-11-30 21:46:08.475 +03:00 [INF] User profile is available. Using 'C:\Users\Home\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 21:46:08.917 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-30 21:46:08.927 +03:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 21:46:08.985 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 21:46:08.987 +03:00 [INF] Hosting environment: Development
+2024-11-30 21:46:08.988 +03:00 [INF] Content root path: C:\Users\Home\source\repos\253501_mammadov\253501_mammadov
+2024-11-30 21:46:12.992 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-30 21:46:13.797 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:46:13.847 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller _253501_mammadov.Controllers.Home (253501_mammadov).
+2024-11-30 21:46:13.873 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 21:46:14.140 +03:00 [INF] Executed ViewResult - view Index executed in 274.7489ms.
+2024-11-30 21:46:14.147 +03:00 [INF] Executed action _253501_mammadov.Controllers.Home.Index (253501_mammadov) in 295.8352ms
+2024-11-30 21:46:14.152 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:46:14.154 +03:00 [INF] Request GET / responded with status code 200. Response: <!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+	<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/site.css?v=bZNRibDcTR5K9GQPAB64mNHLUQhhzicW7xfs9ADAPSY" />
+	<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<!-- Панель навигации -->
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+				
+<div class="navbar-nav">
+    <a class="nav-item nav-link active" href="/">Лб 1</a>
+    <a class="nav-item nav-link " href="/Product">Каталог</a>
+    <a class="nav-item nav-link " href="/Admin">Администрирование</a>
+</div>
+				
+
+
+<div style="padding-left: 800px;" class="dropdown ms-4 nav-color">
+    <div>
+        
+    <span style="color: grey;"><a href="/Cart">Корзина пустая</a></span>
+
+    </div>
+        <!-- Если пользователь не аутентифицирован -->
+        <a  class="btn btn-secondary"
+           href="/Account/Login">
+            Login
+        </a>
+        <a  class="btn btn-secondary ms-2"
+           href="/Account/Register">
+            Register
+        </a>
+</div>
+
+			
+			</nav> <!-- Панель навигации - конец -->
+		</div><!-- container - конец -->
+	</header><!-- header - конец -->
+	<main class="container mt-3">		
+				
+        <h1>&#x41B;&#x430;&#x431;&#x43E;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x43D;&#x430;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430; &#x2116;2</h1>
+
+        <!-- Упорядоченный список -->
+        <h3>Список</h3>
+        <ol type="A">
+                <li>элемент 1 списка</li> 
+                <li>элемент 2 списка</li> 
+                <li>элемент 3 списка</li> 
+                <li>элемент 4 списка</li> 
+                <li>элемент 5 списка</li> 
+                <li>элемент 6 списка</li> 
+        </ol>
+
+        <!-- Форма -->
+        <h3>Форма</h3>
+        <form method="post">
+
+            <div class="form-group">
+                <label for="demoSelect">Выберите элемент:</label>
+                <select id="demoSelect" name="selectedItem" class="form-control">
+                <option value="">-- Выберите --</option>
+                     <option value="1">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 1</option>
+                     <option value="2">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 2</option>
+                     <option value="3">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 3</option>
+                </select>
+            </div>
+ 
+            <div class="form-check mb-2">
+        <input class="form-check-input"type="checkbox" name="checkbox1" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">Чек-бокс 1</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" name="checkbox2" id="checkbox2">
+                <label class="form-check-label" for="checkbox2">Чек-бокс 2</label>
+            </div>
+
+
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio1" value="option1">
+                <label class="form-check-label" for="radio1">Радио-1</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio2" value="option2">
+                <label class="form-check-label" for="radio2">Радио-2</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio3" value="option3">
+                <label class="form-check-label" for="radio3">Радио-3</label>
+            </div>
+
+    
+            <div class="mb-3 row">
+                <label for="login" class="col-sm-2 col-form-label">Логин:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="login" id="login" placeholder="Введите имя">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="password" class="col-sm-2 col-form-label" >Пароль:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль">
+                </div>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8Jnci-O9bXJClW5IBTX0VaSX3vUG_flxnBWfyvIvRx5qFx5x9mvwRyviJQws8WYwnXjbS7c_O8uKpV9AtWC4Dc36RBToBQ1Y-JHoJx4Ny0w222PCw9yfES8rLrNijpe4O3ELXWgG7y7R7Zf9maW5DrU" /></form>
+   	
+	</main>
+	<footer>
+		<div class="container">
+			<div class="navbar navbar-dark navbar-expand-md bg-dark">
+				<div class="navbar-nav ms-auto">
+					<a class="nav-item nav-link" href="http://www.facebook.com">
+						<i class="fa-brands fa-facebook-f fa-2x"></i>
+					</a>
+					<a class="nav-item nav-link" href="http://www.vk.com">
+						<i class="fa-brands fa-vk fa-2x"></i>
+					</a>
+					<a class="nav-item nav-link" href="http://www.twitter.com">
+						<i class="fa-brands fa-twitter fa-2x"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="/lib/jquery/dist/jquery.min.js"></script>
+	<script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="/js/site.js?v=kX1zETlew_kP_HVd_9mUoEa9vgrGAfE0Bo5toPGf5Fo"></script>
+	
+</body>
+</html>
+
+2024-11-30 21:46:14.168 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 0 text/html; charset=utf-8 1288.1409ms
+2024-11-30 21:46:33.153 +03:00 [INF] User profile is available. Using 'C:\Users\Home\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 21:46:33.529 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-30 21:46:33.531 +03:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 21:46:33.573 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 21:46:33.574 +03:00 [INF] Hosting environment: Development
+2024-11-30 21:46:33.576 +03:00 [INF] Content root path: C:\Users\Home\source\repos\253501_mammadov\253501_mammadov
+2024-11-30 21:46:34.886 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-30 21:46:35.185 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:46:35.233 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller _253501_mammadov.Controllers.Home (253501_mammadov).
+2024-11-30 21:46:35.254 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 21:46:35.460 +03:00 [INF] Executed ViewResult - view Index executed in 212.3315ms.
+2024-11-30 21:46:35.463 +03:00 [INF] Executed action _253501_mammadov.Controllers.Home.Index (253501_mammadov) in 227.0796ms
+2024-11-30 21:46:35.464 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:46:35.465 +03:00 [INF] Request GET / responded with status code 200. Response: <!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+	<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/site.css?v=bZNRibDcTR5K9GQPAB64mNHLUQhhzicW7xfs9ADAPSY" />
+	<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<!-- Панель навигации -->
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+				
+<div class="navbar-nav">
+    <a class="nav-item nav-link active" href="/">Лб 1</a>
+    <a class="nav-item nav-link " href="/Product">Каталог</a>
+    <a class="nav-item nav-link " href="/Admin">Администрирование</a>
+</div>
+				
+
+
+<div style="padding-left: 800px;" class="dropdown ms-4 nav-color">
+    <div>
+        
+    <span style="color: grey;"><a href="/Cart">Корзина пустая</a></span>
+
+    </div>
+        <!-- Если пользователь не аутентифицирован -->
+        <a  class="btn btn-secondary"
+           href="/Account/Login">
+            Login
+        </a>
+        <a  class="btn btn-secondary ms-2"
+           href="/Account/Register">
+            Register
+        </a>
+</div>
+
+			
+			</nav> <!-- Панель навигации - конец -->
+		</div><!-- container - конец -->
+	</header><!-- header - конец -->
+	<main class="container mt-3">		
+				
+        <h1>&#x41B;&#x430;&#x431;&#x43E;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x43D;&#x430;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430; &#x2116;2</h1>
+
+        <!-- Упорядоченный список -->
+        <h3>Список</h3>
+        <ol type="A">
+                <li>элемент 1 списка</li> 
+                <li>элемент 2 списка</li> 
+                <li>элемент 3 списка</li> 
+                <li>элемент 4 списка</li> 
+                <li>элемент 5 списка</li> 
+                <li>элемент 6 списка</li> 
+        </ol>
+
+        <!-- Форма -->
+        <h3>Форма</h3>
+        <form method="post">
+
+            <div class="form-group">
+                <label for="demoSelect">Выберите элемент:</label>
+                <select id="demoSelect" name="selectedItem" class="form-control">
+                <option value="">-- Выберите --</option>
+                     <option value="1">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 1</option>
+                     <option value="2">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 2</option>
+                     <option value="3">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 3</option>
+                </select>
+            </div>
+ 
+            <div class="form-check mb-2">
+        <input class="form-check-input"type="checkbox" name="checkbox1" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">Чек-бокс 1</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" name="checkbox2" id="checkbox2">
+                <label class="form-check-label" for="checkbox2">Чек-бокс 2</label>
+            </div>
+
+
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio1" value="option1">
+                <label class="form-check-label" for="radio1">Радио-1</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio2" value="option2">
+                <label class="form-check-label" for="radio2">Радио-2</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio3" value="option3">
+                <label class="form-check-label" for="radio3">Радио-3</label>
+            </div>
+
+    
+            <div class="mb-3 row">
+                <label for="login" class="col-sm-2 col-form-label">Логин:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="login" id="login" placeholder="Введите имя">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="password" class="col-sm-2 col-form-label" >Пароль:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль">
+                </div>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8Jnci-O9bXJClW5IBTX0VaQ-tXPhZYVe-xSaUkA6SKB32wYNhGh29Um3sw0W9tAUtcDOxENB9q1pKFZoNv4PBRXHb-ArksGX8egdS_vi_dWQ7H_8eqAPjd5DCg2MBE3EXyNDT03SRr2OT-4rWqHG6LE" /></form>
+   	
+	</main>
+	<footer>
+		<div class="container">
+			<div class="navbar navbar-dark navbar-expand-md bg-dark">
+				<div class="navbar-nav ms-auto">
+					<a class="nav-item nav-link" href="http://www.facebook.com">
+						<i class="fa-brands fa-facebook-f fa-2x"></i>
+					</a>
+					<a class="nav-item nav-link" href="http://www.vk.com">
+						<i class="fa-brands fa-vk fa-2x"></i>
+					</a>
+					<a class="nav-item nav-link" href="http://www.twitter.com">
+						<i class="fa-brands fa-twitter fa-2x"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="/lib/jquery/dist/jquery.min.js"></script>
+	<script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="/js/site.js?v=kX1zETlew_kP_HVd_9mUoEa9vgrGAfE0Bo5toPGf5Fo"></script>
+	
+</body>
+</html>
+
+2024-11-30 21:46:35.480 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 0 text/html; charset=utf-8 598.7868ms
+2024-11-30 21:46:42.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Product - null null
+2024-11-30 21:46:42.663 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.ProductController.Index (253501_mammadov)'
+2024-11-30 21:46:42.680 +03:00 [INF] Route matched with {action = "Index", controller = "Product", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller _253501_mammadov.Controllers.ProductController (253501_mammadov).
+2024-11-30 21:46:42.723 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/categories/
+2024-11-30 21:46:42.725 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/categories/
+2024-11-30 21:46:43.138 +03:00 [INF] Received HTTP response headers after 409.7172ms - 200
+2024-11-30 21:46:43.140 +03:00 [INF] End processing HTTP request after 420.0391ms - 200
+2024-11-30 21:46:43.159 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-11-30 21:46:43.160 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-11-30 21:46:47.568 +03:00 [INF] Executed action _253501_mammadov.Controllers.ProductController.Index (253501_mammadov) in 4885.8166ms
+2024-11-30 21:46:47.573 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.ProductController.Index (253501_mammadov)'
+2024-11-30 21:46:47.695 +03:00 [ERR] An error occurred while processing the request.
+System.Net.Http.HttpRequestException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (localhost:8080)
+ ---> System.Net.Sockets.SocketException (10061): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at _253501_mammadov.Services.Authentication.KeycloakTokenAccessor.GetAccessTokenAsync() in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Services\Authentication\KeycloakTokenAccessor.cs:line 46
+   at _253501_mammadov.Services.Authentication.KeycloakTokenAccessor.SetAuthorizationHeaderAsync(HttpClient httpClient) in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Services\Authentication\KeycloakTokenAccessor.cs:line 58
+   at _253501_mammadov.Services.ProductService.ApiProductService.AddAuthorizationHeaderAsync() in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Services\ProductService\ApiProductService.cs:line 43
+   at _253501_mammadov.Services.ProductService.ApiProductService.GetProductListAsync(String categoryNormalizedName, Int32 pageNo) in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Services\ProductService\ApiProductService.cs:line 70
+   at _253501_mammadov.Controllers.ProductController.Index(String category, Int32 pageNo) in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Controllers\ProductController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at _253501_mammadov.Models.LoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Models\ResponseData.cs:line 52
+2024-11-30 21:46:47.817 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (localhost:8080)
+ ---> System.Net.Sockets.SocketException (10061): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at _253501_mammadov.Services.Authentication.KeycloakTokenAccessor.GetAccessTokenAsync() in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Services\Authentication\KeycloakTokenAccessor.cs:line 46
+   at _253501_mammadov.Services.Authentication.KeycloakTokenAccessor.SetAuthorizationHeaderAsync(HttpClient httpClient) in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Services\Authentication\KeycloakTokenAccessor.cs:line 58
+   at _253501_mammadov.Services.ProductService.ApiProductService.AddAuthorizationHeaderAsync() in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Services\ProductService\ApiProductService.cs:line 43
+   at _253501_mammadov.Services.ProductService.ApiProductService.GetProductListAsync(String categoryNormalizedName, Int32 pageNo) in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Services\ProductService\ApiProductService.cs:line 70
+   at _253501_mammadov.Controllers.ProductController.Index(String category, Int32 pageNo) in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Controllers\ProductController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at _253501_mammadov.Models.LoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Models\ResponseData.cs:line 52
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-30 21:46:47.983 +03:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+Object name: 'MemoryStream'.
+   at System.IO.Stream.ValidateCopyToArguments(Stream destination, Int32 bufferSize)
+   at System.IO.MemoryStream.CopyToAsync(Stream destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.IO.Stream.CopyToAsync(Stream destination)
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-30 21:46:47.988 +03:00 [ERR] Connection id "0HN8HDT8218GO", Request id "0HN8HDT8218GO:00000003": An unhandled exception was thrown by the application.
+System.Net.Http.HttpRequestException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (localhost:8080)
+ ---> System.Net.Sockets.SocketException (10061): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at _253501_mammadov.Services.Authentication.KeycloakTokenAccessor.GetAccessTokenAsync() in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Services\Authentication\KeycloakTokenAccessor.cs:line 46
+   at _253501_mammadov.Services.Authentication.KeycloakTokenAccessor.SetAuthorizationHeaderAsync(HttpClient httpClient) in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Services\Authentication\KeycloakTokenAccessor.cs:line 58
+   at _253501_mammadov.Services.ProductService.ApiProductService.AddAuthorizationHeaderAsync() in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Services\ProductService\ApiProductService.cs:line 43
+   at _253501_mammadov.Services.ProductService.ApiProductService.GetProductListAsync(String categoryNormalizedName, Int32 pageNo) in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Services\ProductService\ApiProductService.cs:line 70
+   at _253501_mammadov.Controllers.ProductController.Index(String category, Int32 pageNo) in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Controllers\ProductController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at _253501_mammadov.Models.LoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\Models\ResponseData.cs:line 52
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2024-11-30 21:46:48.016 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Product - 500 0 null 5369.3344ms
+2024-11-30 21:47:09.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-30 21:47:09.368 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:47:09.371 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller _253501_mammadov.Controllers.Home (253501_mammadov).
+2024-11-30 21:47:09.375 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 21:47:09.382 +03:00 [INF] Executed ViewResult - view Index executed in 7.1568ms.
+2024-11-30 21:47:09.383 +03:00 [INF] Executed action _253501_mammadov.Controllers.Home.Index (253501_mammadov) in 8.795ms
+2024-11-30 21:47:09.384 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:47:09.384 +03:00 [INF] Request GET / responded with status code 200. Response: <!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+	<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/site.css?v=bZNRibDcTR5K9GQPAB64mNHLUQhhzicW7xfs9ADAPSY" />
+	<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<!-- Панель навигации -->
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+				
+<div class="navbar-nav">
+    <a class="nav-item nav-link active" href="/">Лб 1</a>
+    <a class="nav-item nav-link " href="/Product">Каталог</a>
+    <a class="nav-item nav-link " href="/Admin">Администрирование</a>
+</div>
+				
+
+
+<div style="padding-left: 800px;" class="dropdown ms-4 nav-color">
+    <div>
+        
+    <span style="color: grey;"><a href="/Cart">Корзина пустая</a></span>
+
+    </div>
+        <!-- Если пользователь не аутентифицирован -->
+        <a  class="btn btn-secondary"
+           href="/Account/Login">
+            Login
+        </a>
+        <a  class="btn btn-secondary ms-2"
+           href="/Account/Register">
+            Register
+        </a>
+</div>
+
+			
+			</nav> <!-- Панель навигации - конец -->
+		</div><!-- container - конец -->
+	</header><!-- header - конец -->
+	<main class="container mt-3">		
+				
+        <h1>&#x41B;&#x430;&#x431;&#x43E;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x43D;&#x430;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430; &#x2116;2</h1>
+
+        <!-- Упорядоченный список -->
+        <h3>Список</h3>
+        <ol type="A">
+                <li>элемент 1 списка</li> 
+                <li>элемент 2 списка</li> 
+                <li>элемент 3 списка</li> 
+                <li>элемент 4 списка</li> 
+                <li>элемент 5 списка</li> 
+                <li>элемент 6 списка</li> 
+        </ol>
+
+        <!-- Форма -->
+        <h3>Форма</h3>
+        <form method="post">
+
+            <div class="form-group">
+                <label for="demoSelect">Выберите элемент:</label>
+                <select id="demoSelect" name="selectedItem" class="form-control">
+                <option value="">-- Выберите --</option>
+                     <option value="1">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 1</option>
+                     <option value="2">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 2</option>
+                     <option value="3">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 3</option>
+                </select>
+            </div>
+ 
+            <div class="form-check mb-2">
+        <input class="form-check-input"type="checkbox" name="checkbox1" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">Чек-бокс 1</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" name="checkbox2" id="checkbox2">
+                <label class="form-check-label" for="checkbox2">Чек-бокс 2</label>
+            </div>
+
+
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio1" value="option1">
+                <label class="form-check-label" for="radio1">Радио-1</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio2" value="option2">
+                <label class="form-check-label" for="radio2">Радио-2</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio3" value="option3">
+                <label class="form-check-label" for="radio3">Радио-3</label>
+            </div>
+
+    
+            <div class="mb-3 row">
+                <label for="login" class="col-sm-2 col-form-label">Логин:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="login" id="login" placeholder="Введите имя">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="password" class="col-sm-2 col-form-label" >Пароль:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль">
+                </div>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8Jnci-O9bXJClW5IBTX0VaRWbk42kLOOv2_zmZJ6g4GwCio5MIoC-hxZlF9Vcex8aEjLodXyHN3LK_RaQr5XzEFfug_3M9bQLIUgxJaxBVnPx68Zuogw8yn9jd7gNhIAq_cgnDLj_DIOZUt9-wkdXZo" /></form>
+   	
+	</main>
+	<footer>
+		<div class="container">
+			<div class="navbar navbar-dark navbar-expand-md bg-dark">
+				<div class="navbar-nav ms-auto">
+					<a class="nav-item nav-link" href="http://www.facebook.com">
+						<i class="fa-brands fa-facebook-f fa-2x"></i>
+					</a>
+					<a class="nav-item nav-link" href="http://www.vk.com">
+						<i class="fa-brands fa-vk fa-2x"></i>
+					</a>
+					<a class="nav-item nav-link" href="http://www.twitter.com">
+						<i class="fa-brands fa-twitter fa-2x"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="/lib/jquery/dist/jquery.min.js"></script>
+	<script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="/js/site.js?v=kX1zETlew_kP_HVd_9mUoEa9vgrGAfE0Bo5toPGf5Fo"></script>
+	
+</body>
+</html>
+
+2024-11-30 21:47:09.389 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 0 text/html; charset=utf-8 46.5831ms
+2024-11-30 21:47:18.130 +03:00 [INF] User profile is available. Using 'C:\Users\Home\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 21:47:27.281 +03:00 [INF] User profile is available. Using 'C:\Users\Home\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 21:47:27.610 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-30 21:47:27.611 +03:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 21:47:27.651 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 21:47:27.652 +03:00 [INF] Hosting environment: Development
+2024-11-30 21:47:27.653 +03:00 [INF] Content root path: C:\Users\Home\source\repos\253501_mammadov\253501_mammadov
+2024-11-30 21:47:28.682 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-30 21:47:29.019 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:47:29.059 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller _253501_mammadov.Controllers.Home (253501_mammadov).
+2024-11-30 21:47:29.076 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 21:47:29.307 +03:00 [INF] Executed ViewResult - view Index executed in 235.504ms.
+2024-11-30 21:47:29.313 +03:00 [INF] Executed action _253501_mammadov.Controllers.Home.Index (253501_mammadov) in 250.5524ms
+2024-11-30 21:47:29.314 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:47:29.316 +03:00 [INF] Request GET / responded with status code 200. Response: <!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+	<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/site.css?v=bZNRibDcTR5K9GQPAB64mNHLUQhhzicW7xfs9ADAPSY" />
+	<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<!-- Панель навигации -->
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+				
+<div class="navbar-nav">
+    <a class="nav-item nav-link active" href="/">Лб 1</a>
+    <a class="nav-item nav-link " href="/Product">Каталог</a>
+    <a class="nav-item nav-link " href="/Admin">Администрирование</a>
+</div>
+				
+
+
+<div style="padding-left: 800px;" class="dropdown ms-4 nav-color">
+    <div>
+        
+    <span style="color: grey;"><a href="/Cart">Корзина пустая</a></span>
+
+    </div>
+        <!-- Если пользователь не аутентифицирован -->
+        <a  class="btn btn-secondary"
+           href="/Account/Login">
+            Login
+        </a>
+        <a  class="btn btn-secondary ms-2"
+           href="/Account/Register">
+            Register
+        </a>
+</div>
+
+			
+			</nav> <!-- Панель навигации - конец -->
+		</div><!-- container - конец -->
+	</header><!-- header - конец -->
+	<main class="container mt-3">		
+				
+        <h1>&#x41B;&#x430;&#x431;&#x43E;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x43D;&#x430;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430; &#x2116;2</h1>
+
+        <!-- Упорядоченный список -->
+        <h3>Список</h3>
+        <ol type="A">
+                <li>элемент 1 списка</li> 
+                <li>элемент 2 списка</li> 
+                <li>элемент 3 списка</li> 
+                <li>элемент 4 списка</li> 
+                <li>элемент 5 списка</li> 
+                <li>элемент 6 списка</li> 
+        </ol>
+
+        <!-- Форма -->
+        <h3>Форма</h3>
+        <form method="post">
+
+            <div class="form-group">
+                <label for="demoSelect">Выберите элемент:</label>
+                <select id="demoSelect" name="selectedItem" class="form-control">
+                <option value="">-- Выберите --</option>
+                     <option value="1">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 1</option>
+                     <option value="2">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 2</option>
+                     <option value="3">&#x42D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; 3</option>
+                </select>
+            </div>
+ 
+            <div class="form-check mb-2">
+        <input class="form-check-input"type="checkbox" name="checkbox1" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">Чек-бокс 1</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" name="checkbox2" id="checkbox2">
+                <label class="form-check-label" for="checkbox2">Чек-бокс 2</label>
+            </div>
+
+
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio1" value="option1">
+                <label class="form-check-label" for="radio1">Радио-1</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio2" value="option2">
+                <label class="form-check-label" for="radio2">Радио-2</label>
+            </div>
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="radio" id="radio3" value="option3">
+                <label class="form-check-label" for="radio3">Радио-3</label>
+            </div>
+
+    
+            <div class="mb-3 row">
+                <label for="login" class="col-sm-2 col-form-label">Логин:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="login" id="login" placeholder="Введите имя">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="password" class="col-sm-2 col-form-label" >Пароль:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль">
+                </div>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8Jnci-O9bXJClW5IBTX0VaQHBZJrBJ8TzChkAGjYjftrOlnXh5ASjBoO8R06OvLSkIGiCMMoTRJfIEpH276CJAYIH1isBlBSX-6LbxxLxwdGj3WdMwHxxRai0Hp9UArKj6n5mKwDE6BVodvLWwgAwHo" /></form>
+   	
+	</main>
+	<footer>
+		<div class="container">
+			<div class="navbar navbar-dark navbar-expand-md bg-dark">
+				<div class="navbar-nav ms-auto">
+					<a class="nav-item nav-link" href="http://www.facebook.com">
+						<i class="fa-brands fa-facebook-f fa-2x"></i>
+					</a>
+					<a class="nav-item nav-link" href="http://www.vk.com">
+						<i class="fa-brands fa-vk fa-2x"></i>
+					</a>
+					<a class="nav-item nav-link" href="http://www.twitter.com">
+						<i class="fa-brands fa-twitter fa-2x"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="/lib/jquery/dist/jquery.min.js"></script>
+	<script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="/js/site.js?v=kX1zETlew_kP_HVd_9mUoEa9vgrGAfE0Bo5toPGf5Fo"></script>
+	
+</body>
+</html>
+
+2024-11-30 21:47:29.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 0 text/html; charset=utf-8 655.4741ms
+2024-11-30 21:48:59.410 +03:00 [INF] User profile is available. Using 'C:\Users\Home\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 21:48:59.828 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-30 21:48:59.829 +03:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 21:48:59.860 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 21:48:59.861 +03:00 [INF] Hosting environment: Development
+2024-11-30 21:48:59.862 +03:00 [INF] Content root path: C:\Users\Home\source\repos\253501_mammadov\253501_mammadov
+2024-11-30 21:49:01.022 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-30 21:49:01.300 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:49:01.335 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller _253501_mammadov.Controllers.Home (253501_mammadov).
+2024-11-30 21:49:01.351 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 21:49:01.615 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-30 21:49:01.615 +03:00 [INF] Executed ViewResult - view Index executed in 242.6249ms.
+2024-11-30 21:49:01.631 +03:00 [INF] Executed action _253501_mammadov.Controllers.Home.Index (253501_mammadov) in 292.8663ms
+2024-11-30 21:49:01.636 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 19.2865ms
+2024-11-30 21:49:01.638 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 21:49:01.649 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 637.7833ms
+2024-11-30 21:49:01.701 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2024-11-30 21:49:01.758 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.3482ms
+2024-11-30 23:35:50.202 +03:00 [INF] User profile is available. Using 'C:\Users\Home\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 23:35:50.635 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-30 23:35:50.636 +03:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 23:35:50.671 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 23:35:50.675 +03:00 [INF] Hosting environment: Development
+2024-11-30 23:35:50.676 +03:00 [INF] Content root path: C:\Users\Home\source\repos\253501_mammadov\253501_mammadov
+2024-11-30 23:35:52.346 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-30 23:35:52.784 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 23:35:52.822 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller _253501_mammadov.Controllers.Home (253501_mammadov).
+2024-11-30 23:35:52.839 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 23:35:53.211 +03:00 [INF] Executed ViewResult - view Index executed in 375.678ms.
+2024-11-30 23:35:53.218 +03:00 [INF] Executed action _253501_mammadov.Controllers.Home.Index (253501_mammadov) in 393.9744ms
+2024-11-30 23:35:53.221 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-11-30 23:35:53.231 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 893.4872ms
+2024-11-30 23:35:53.254 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-30 23:35:53.254 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/js/site.js?v=kX1zETlew_kP_HVd_9mUoEa9vgrGAfE0Bo5toPGf5Fo - null null
+2024-11-30 23:35:53.268 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 14.2416ms
+2024-11-30 23:35:53.271 +03:00 [INF] The file /js/site.js was not modified
+2024-11-30 23:35:53.272 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/js/site.js?v=kX1zETlew_kP_HVd_9mUoEa9vgrGAfE0Bo5toPGf5Fo - 304 null text/javascript 18.4674ms
+2024-11-30 23:35:53.317 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2024-11-30 23:35:53.400 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.0126ms

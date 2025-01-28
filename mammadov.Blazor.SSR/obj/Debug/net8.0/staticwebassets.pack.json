@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.Blazor.SSR\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\mammadov.Blazor.SSR.bundle.scp.css",
+      "PackagePath": "staticwebassets\\mammadov.Blazor.SSR.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.Blazor.SSR\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.Blazor.SSR\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.Blazor.SSR\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Home\\source\\repos\\253501_mammadov\\mammadov.Blazor.SSR\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.mammadov.Blazor.SSR.props",
+      "PackagePath": "build\\mammadov.Blazor.SSR.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.mammadov.Blazor.SSR.props",
+      "PackagePath": "buildMultiTargeting\\mammadov.Blazor.SSR.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.mammadov.Blazor.SSR.props",
+      "PackagePath": "buildTransitive\\mammadov.Blazor.SSR.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.mammadov.Blazor.SSR.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,6 +1,6 @@
 ﻿using _253501_mammadov.Services.CategoryService;
 using _253501_mammadov.Services.ProductService;
-using mammadov.Domain.Entities;
+using _253501_mammadov.Extensions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace _253501_mammadov.Controllers
@@ -19,18 +19,29 @@ namespace _253501_mammadov.Controllers
         public async Task<IActionResult> Index(string? category = null, int pageNo = 1)
         {
             var response = await _categoryService.GetCategoryListAsync();
-            var categories = response.Data;
-
-            var currentCategory = categories?.FirstOrDefault(c => c.NormalizedName == category)?.Name ?? "Все";
-                ViewData["categories"] = categories;
-                ViewData["currentCategory"] = currentCategory;
-                ViewData["currentCategoryNormalizedName"] = category;
-
             var products = await _fruitService.GetProductListAsync(category, pageNo);
-            var model = products.Data;
 
+            if (!response.Successful || !products.Successful)
+            {
+                return NotFound();
+            }
+
+            if (Request.IsAjaxRequest())
+            {
+                return PartialView("_FruitList", products.Data);
+            }
+
+            var categories = response.Data;
+            var currentCategory = categories?.FirstOrDefault(c => c.NormalizedName == category)?.Name ?? "Все";
+
+            ViewData["categories"] = categories;
+            ViewData["currentCategory"] = currentCategory;
+            ViewData["currentCategoryNormalizedName"] = category;
+
+            var model = products.Data;
             return View(model);
         }
+
     }
 }
 

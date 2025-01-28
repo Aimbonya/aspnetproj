@@ -1,15 +1,18 @@
 using _253501_mammadov.DataControllers;
 using _253501_mammadov.Extensions;
 using _253501_mammadov.HelperClasses;
+using _253501_mammadov.Models;
 using _253501_mammadov.Services.Authorization;
 using _253501_mammadov.Services.CategoryService;
 using _253501_mammadov.Services.FileService;
 using _253501_mammadov.Services.ProductService;
+using mammadov.Domain.Entities;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using Serilog;
 using System.Configuration;
 
 
@@ -28,11 +31,27 @@ builder.Services.AddHttpClient<ICategoryService, ApiCategoryService>(opt =>
 builder.Services.AddHttpClient<IFileService, ApiFileService>(opt =>
     opt.BaseAddress = new Uri($"{uriData.ApiUri}Files"));
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IAuthService, KeycloakAuthService>();
+builder.Services.AddScoped<Cart>(sp =>
+{
+    var session = sp.GetRequiredService<IHttpContextAccessor>().HttpContext.Session;
+    return SessionCart.GetCartFromSession(session);
+});
+
+builder.Host.UseSerilog((context, services, loggerConfiguration) =>
+    loggerConfiguration.ReadFrom.Configuration(context.Configuration));
 builder.Services.AddRazorPages();
+builder.Services.AddRazorPages()
+    .AddTagHelpersAsServices();
 
 var keycloakData = builder.Configuration.GetSection("Keycloak").Get<KeycloakData>();
 
+builder.Host.UseSerilog((context, services, loggerConfiguration) =>
+    loggerConfiguration.ReadFrom.Configuration(context.Configuration));
+
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
 
 builder.Services
 .AddAuthentication(options =>
@@ -77,10 +96,12 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseSession();
 app.MapRazorPages();
 
 app.UseAuthorization();
+
+//app.UseMiddleware<LoggingMiddleware>();
 
 app.MapControllerRoute(
     name: "default",

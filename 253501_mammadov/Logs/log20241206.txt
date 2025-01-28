@@ -1,0 +1,185 @@
+2024-12-06 14:28:05.413 +03:00 [INF] User profile is available. Using 'C:\Users\Home\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-06 14:28:06.317 +03:00 [INF] Now listening on: https://localhost:7001
+2024-12-06 14:28:06.406 +03:00 [INF] Now listening on: http://localhost:5001
+2024-12-06 14:28:06.581 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-06 14:28:06.591 +03:00 [INF] Hosting environment: Development
+2024-12-06 14:28:06.604 +03:00 [INF] Content root path: C:\Users\Home\source\repos\253501_mammadov\253501_mammadov
+2024-12-06 14:28:09.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-12-06 14:28:10.337 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-12-06 14:28:10.430 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller _253501_mammadov.Controllers.Home (253501_mammadov).
+2024-12-06 14:28:10.464 +03:00 [INF] Executing ViewResult, running view Index.
+2024-12-06 14:28:11.004 +03:00 [INF] Executed ViewResult - view Index executed in 549.0563ms.
+2024-12-06 14:28:11.039 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-12-06 14:28:11.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/jquery/dist/jquery.min.js - null null
+2024-12-06 14:28:11.044 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-12-06 14:28:11.040 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/font-awesome/css/all.min.css - null null
+2024-12-06 14:28:11.040 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/css/site.css?v=bZNRibDcTR5K9GQPAB64mNHLUQhhzicW7xfs9ADAPSY - null null
+2024-12-06 14:28:11.042 +03:00 [INF] Executed action _253501_mammadov.Controllers.Home.Index (253501_mammadov) in 608.0515ms
+2024-12-06 14:28:11.060 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/js/site.js?v=kX1zETlew_kP_HVd_9mUoEa9vgrGAfE0Bo5toPGf5Fo - null null
+2024-12-06 14:28:11.193 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 14:28:11.191 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2024-12-06 14:28:11.245 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\css\site.css'
+2024-12-06 14:28:11.229 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-12-06 14:28:11.244 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\js\site.js'
+2024-12-06 14:28:11.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 62.3397ms
+2024-12-06 14:28:11.406 +03:00 [INF] Sending file. Request path: '/lib/font-awesome/css/all.min.css'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\lib\font-awesome\css\all.min.css'
+2024-12-06 14:28:11.267 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/css/site.css?v=bZNRibDcTR5K9GQPAB64mNHLUQhhzicW7xfs9ADAPSY - 200 126 text/css 226.15ms
+2024-12-06 14:28:11.466 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-12-06 14:28:11.464 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/font-awesome/css/all.min.css - 200 96518 text/css 423.6817ms
+2024-12-06 14:28:11.490 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 451.1682ms
+2024-12-06 14:28:11.485 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\lib\jquery\dist\jquery.min.js'
+2024-12-06 14:28:11.447 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2024-12-06 14:28:11.402 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 1500.8975ms
+2024-12-06 14:28:11.439 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/js/site.js?v=kX1zETlew_kP_HVd_9mUoEa9vgrGAfE0Bo5toPGf5Fo - 200 1285 text/javascript 379.2143ms
+2024-12-06 14:28:11.513 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 322.5625ms
+2024-12-06 14:28:11.530 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 485.6928ms
+2024-12-06 14:28:11.533 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 490.4638ms
+2024-12-06 14:28:11.605 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/font-awesome/webfonts/fa-brands-400.woff2 - null null
+2024-12-06 14:28:11.762 +03:00 [INF] Sending file. Request path: '/lib/font-awesome/webfonts/fa-brands-400.woff2'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\lib\font-awesome\webfonts\fa-brands-400.woff2'
+2024-12-06 14:28:11.819 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/font-awesome/webfonts/fa-brands-400.woff2 - 200 118072 font/woff2 214.7592ms
+2024-12-06 14:28:17.054 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Product - null null
+2024-12-06 14:28:17.093 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.ProductController.Index (253501_mammadov)'
+2024-12-06 14:28:17.136 +03:00 [INF] Route matched with {action = "Index", controller = "Product", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller _253501_mammadov.Controllers.ProductController (253501_mammadov).
+2024-12-06 14:28:17.234 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/categories/
+2024-12-06 14:28:17.240 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/categories/
+2024-12-06 14:28:17.889 +03:00 [INF] Received HTTP response headers after 640.2701ms - 200
+2024-12-06 14:28:17.894 +03:00 [INF] End processing HTTP request after 662.1332ms - 200
+2024-12-06 14:28:17.945 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-12-06 14:28:17.947 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-12-06 14:28:18.524 +03:00 [INF] Received HTTP response headers after 575.3989ms - 200
+2024-12-06 14:28:18.528 +03:00 [INF] End processing HTTP request after 582.1755ms - 200
+2024-12-06 14:28:18.537 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/fruits?pageNo=1&pageSize=3
+2024-12-06 14:28:18.539 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/fruits?pageNo=1&pageSize=3
+2024-12-06 14:28:19.511 +03:00 [INF] Received HTTP response headers after 971.0638ms - 200
+2024-12-06 14:28:19.514 +03:00 [INF] End processing HTTP request after 976.8277ms - 200
+2024-12-06 14:28:19.535 +03:00 [INF] Executing ViewResult, running view Index.
+2024-12-06 14:28:19.598 +03:00 [INF] Executed ViewResult - view Index executed in 64.107ms.
+2024-12-06 14:28:19.601 +03:00 [INF] Executed action _253501_mammadov.Controllers.ProductController.Index (253501_mammadov) in 2461.9983ms
+2024-12-06 14:28:19.604 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.ProductController.Index (253501_mammadov)'
+2024-12-06 14:28:19.613 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Product - 200 null text/html; charset=utf-8 2558.6194ms
+2024-12-06 14:28:19.640 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/images/2364d7e7-daec-4823-a08f-423e75c8ac80_photo_2023-03-22_00-18-45.jpg - null null
+2024-12-06 14:28:19.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Images/lemon.jpg - null null
+2024-12-06 14:28:19.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2024-12-06 14:28:19.653 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 14:28:19.705 +03:00 [INF] Sending file. Request path: '/images/2364d7e7-daec-4823-a08f-423e75c8ac80_photo_2023-03-22_00-18-45.jpg'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\Images\2364d7e7-daec-4823-a08f-423e75c8ac80_photo_2023-03-22_00-18-45.jpg'
+2024-12-06 14:28:19.775 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/images/2364d7e7-daec-4823-a08f-423e75c8ac80_photo_2023-03-22_00-18-45.jpg - 200 78920 image/jpeg 135.3049ms
+2024-12-06 14:28:19.735 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 83.1856ms
+2024-12-06 14:28:19.653 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Images/strawberry.jpg - null null
+2024-12-06 14:28:19.706 +03:00 [INF] Sending file. Request path: '/Images/lemon.jpg'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\Images\lemon.jpg'
+2024-12-06 14:28:19.812 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 158.0337ms
+2024-12-06 14:28:19.831 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Images/lemon.jpg - 200 31233 image/jpeg 183.9009ms
+2024-12-06 14:28:19.840 +03:00 [INF] Sending file. Request path: '/Images/strawberry.jpg'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\Images\strawberry.jpg'
+2024-12-06 14:28:19.852 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Images/strawberry.jpg - 200 69257 image/jpeg 200.2803ms
+2024-12-06 14:28:22.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Product?category=&pageNo=2 - null null
+2024-12-06 14:28:22.305 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.ProductController.Index (253501_mammadov)'
+2024-12-06 14:28:22.307 +03:00 [INF] Route matched with {action = "Index", controller = "Product", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller _253501_mammadov.Controllers.ProductController (253501_mammadov).
+2024-12-06 14:28:22.330 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/categories/
+2024-12-06 14:28:22.332 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/categories/
+2024-12-06 14:28:22.345 +03:00 [INF] Received HTTP response headers after 11.2482ms - 200
+2024-12-06 14:28:22.347 +03:00 [INF] End processing HTTP request after 17.0251ms - 200
+2024-12-06 14:28:22.354 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-12-06 14:28:22.356 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-12-06 14:28:22.497 +03:00 [INF] Received HTTP response headers after 129.385ms - 200
+2024-12-06 14:28:22.499 +03:00 [INF] End processing HTTP request after 144.8853ms - 200
+2024-12-06 14:28:22.502 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/fruits?pageNo=2&pageSize=3
+2024-12-06 14:28:22.504 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/fruits?pageNo=2&pageSize=3
+2024-12-06 14:28:22.533 +03:00 [INF] Received HTTP response headers after 26.5353ms - 200
+2024-12-06 14:28:22.538 +03:00 [INF] End processing HTTP request after 35.4234ms - 200
+2024-12-06 14:28:22.545 +03:00 [INF] Executing PartialViewResult, running view _FruitList.
+2024-12-06 14:28:22.554 +03:00 [INF] Executed PartialViewResult - view _FruitList executed in 10.1517ms.
+2024-12-06 14:28:22.559 +03:00 [INF] Executed action _253501_mammadov.Controllers.ProductController.Index (253501_mammadov) in 246.2049ms
+2024-12-06 14:28:22.562 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.ProductController.Index (253501_mammadov)'
+2024-12-06 14:28:22.564 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Product?category=&pageNo=2 - 200 null text/html; charset=utf-8 265.9817ms
+2024-12-06 14:28:22.573 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Images/raspberry.jpg - null null
+2024-12-06 14:28:22.592 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Images/apricot.jpg - null null
+2024-12-06 14:28:22.594 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Images/peach.jpg - null null
+2024-12-06 14:28:22.645 +03:00 [INF] Sending file. Request path: '/Images/apricot.jpg'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\Images\apricot.jpg'
+2024-12-06 14:28:22.650 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Images/apricot.jpg - 200 6075 image/jpeg 57.3874ms
+2024-12-06 14:28:22.737 +03:00 [INF] Sending file. Request path: '/Images/raspberry.jpg'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\Images\raspberry.jpg'
+2024-12-06 14:28:22.740 +03:00 [INF] Sending file. Request path: '/Images/peach.jpg'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\Images\peach.jpg'
+2024-12-06 14:28:22.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Images/raspberry.jpg - 200 79658 image/jpeg 172.104ms
+2024-12-06 14:28:22.748 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Images/peach.jpg - 200 91256 image/jpeg 157.6793ms
+2024-12-06 14:28:23.414 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Product?category=&pageNo=3 - null null
+2024-12-06 14:28:23.418 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.ProductController.Index (253501_mammadov)'
+2024-12-06 14:28:23.419 +03:00 [INF] Route matched with {action = "Index", controller = "Product", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller _253501_mammadov.Controllers.ProductController (253501_mammadov).
+2024-12-06 14:28:23.424 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/categories/
+2024-12-06 14:28:23.428 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/categories/
+2024-12-06 14:28:23.436 +03:00 [INF] Received HTTP response headers after 6.3988ms - 200
+2024-12-06 14:28:23.439 +03:00 [INF] End processing HTTP request after 14.4033ms - 200
+2024-12-06 14:28:23.445 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-12-06 14:28:23.447 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-12-06 14:28:23.560 +03:00 [INF] Received HTTP response headers after 110.5441ms - 200
+2024-12-06 14:28:23.562 +03:00 [INF] End processing HTTP request after 116.8784ms - 200
+2024-12-06 14:28:23.564 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/fruits?pageNo=3&pageSize=3
+2024-12-06 14:28:23.566 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/fruits?pageNo=3&pageSize=3
+2024-12-06 14:28:23.577 +03:00 [INF] Received HTTP response headers after 9.2458ms - 200
+2024-12-06 14:28:23.579 +03:00 [INF] End processing HTTP request after 14.6839ms - 200
+2024-12-06 14:28:23.582 +03:00 [INF] Executing PartialViewResult, running view _FruitList.
+2024-12-06 14:28:23.585 +03:00 [INF] Executed PartialViewResult - view _FruitList executed in 3.9676ms.
+2024-12-06 14:28:23.588 +03:00 [INF] Executed action _253501_mammadov.Controllers.ProductController.Index (253501_mammadov) in 165.7725ms
+2024-12-06 14:28:23.589 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.ProductController.Index (253501_mammadov)'
+2024-12-06 14:28:23.591 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Product?category=&pageNo=3 - 200 null text/html; charset=utf-8 177.7061ms
+2024-12-06 14:28:23.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Images/mango.jpg - null null
+2024-12-06 14:28:23.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Images/pineapple.jpg - null null
+2024-12-06 14:28:23.735 +03:00 [INF] Sending file. Request path: '/Images/mango.jpg'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\Images\mango.jpg'
+2024-12-06 14:28:23.739 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Images/mango.jpg - 200 4722 image/jpeg 92.3325ms
+2024-12-06 14:28:23.798 +03:00 [INF] Sending file. Request path: '/Images/pineapple.jpg'. Physical path: 'C:\Users\Home\source\repos\253501_mammadov\253501_mammadov\wwwroot\Images\pineapple.jpg'
+2024-12-06 14:28:23.801 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Images/pineapple.jpg - 200 165642 image/jpeg 154.9743ms
+2024-12-06 14:28:24.289 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Product?category=&pageNo=2 - null null
+2024-12-06 14:28:24.297 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.ProductController.Index (253501_mammadov)'
+2024-12-06 14:28:24.299 +03:00 [INF] Route matched with {action = "Index", controller = "Product", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller _253501_mammadov.Controllers.ProductController (253501_mammadov).
+2024-12-06 14:28:24.302 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/categories/
+2024-12-06 14:28:24.303 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/categories/
+2024-12-06 14:28:24.315 +03:00 [INF] Received HTTP response headers after 9.5864ms - 200
+2024-12-06 14:28:24.318 +03:00 [INF] End processing HTTP request after 15.8089ms - 200
+2024-12-06 14:28:24.320 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-12-06 14:28:24.321 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-12-06 14:28:24.388 +03:00 [INF] Received HTTP response headers after 64.7129ms - 200
+2024-12-06 14:28:24.390 +03:00 [INF] End processing HTTP request after 70.3984ms - 200
+2024-12-06 14:28:24.393 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/fruits?pageNo=2&pageSize=3
+2024-12-06 14:28:24.395 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/fruits?pageNo=2&pageSize=3
+2024-12-06 14:28:24.435 +03:00 [INF] Received HTTP response headers after 37.1969ms - 200
+2024-12-06 14:28:24.438 +03:00 [INF] End processing HTTP request after 45.03ms - 200
+2024-12-06 14:28:24.440 +03:00 [INF] Executing PartialViewResult, running view _FruitList.
+2024-12-06 14:28:24.445 +03:00 [INF] Executed PartialViewResult - view _FruitList executed in 5.3534ms.
+2024-12-06 14:28:24.448 +03:00 [INF] Executed action _253501_mammadov.Controllers.ProductController.Index (253501_mammadov) in 146.3629ms
+2024-12-06 14:28:24.449 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.ProductController.Index (253501_mammadov)'
+2024-12-06 14:28:24.453 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Product?category=&pageNo=2 - 200 null text/html; charset=utf-8 163.8919ms
+2024-12-06 14:28:24.894 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Product?category=&pageNo=1 - null null
+2024-12-06 14:28:24.899 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.ProductController.Index (253501_mammadov)'
+2024-12-06 14:28:24.900 +03:00 [INF] Route matched with {action = "Index", controller = "Product", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller _253501_mammadov.Controllers.ProductController (253501_mammadov).
+2024-12-06 14:28:24.904 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/categories/
+2024-12-06 14:28:24.906 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/categories/
+2024-12-06 14:28:24.934 +03:00 [INF] Received HTTP response headers after 24.8903ms - 200
+2024-12-06 14:28:24.936 +03:00 [INF] End processing HTTP request after 31.9487ms - 200
+2024-12-06 14:28:24.938 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-12-06 14:28:24.940 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/master/protocol/openid-connect/token
+2024-12-06 14:28:24.996 +03:00 [INF] Received HTTP response headers after 51.7371ms - 200
+2024-12-06 14:28:24.998 +03:00 [INF] End processing HTTP request after 59.3553ms - 200
+2024-12-06 14:28:25.000 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/fruits?pageNo=1&pageSize=3
+2024-12-06 14:28:25.001 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/fruits?pageNo=1&pageSize=3
+2024-12-06 14:28:25.053 +03:00 [INF] Received HTTP response headers after 50.4668ms - 200
+2024-12-06 14:28:25.055 +03:00 [INF] End processing HTTP request after 55.0172ms - 200
+2024-12-06 14:28:25.056 +03:00 [INF] Executing PartialViewResult, running view _FruitList.
+2024-12-06 14:28:25.061 +03:00 [INF] Executed PartialViewResult - view _FruitList executed in 4.7755ms.
+2024-12-06 14:28:25.063 +03:00 [INF] Executed action _253501_mammadov.Controllers.ProductController.Index (253501_mammadov) in 159.2166ms
+2024-12-06 14:28:25.065 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.ProductController.Index (253501_mammadov)'
+2024-12-06 14:28:25.067 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Product?category=&pageNo=1 - 200 null text/html; charset=utf-8 172.2827ms
+2024-12-06 14:29:29.804 +03:00 [INF] User profile is available. Using 'C:\Users\Home\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-06 14:29:30.389 +03:00 [INF] Now listening on: https://localhost:7001
+2024-12-06 14:29:30.392 +03:00 [INF] Now listening on: http://localhost:5001
+2024-12-06 14:29:30.449 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-06 14:29:30.452 +03:00 [INF] Hosting environment: Development
+2024-12-06 14:29:30.453 +03:00 [INF] Content root path: C:\Users\Home\source\repos\253501_mammadov\253501_mammadov
+2024-12-06 14:29:32.460 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-12-06 14:29:34.237 +03:00 [INF] Executing endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-12-06 14:29:34.462 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller _253501_mammadov.Controllers.Home (253501_mammadov).
+2024-12-06 14:29:34.488 +03:00 [INF] Executing ViewResult, running view Index.
+2024-12-06 14:29:34.883 +03:00 [INF] Executed ViewResult - view Index executed in 401.5245ms.
+2024-12-06 14:29:34.897 +03:00 [INF] Executed action _253501_mammadov.Controllers.Home.Index (253501_mammadov) in 428.3929ms
+2024-12-06 14:29:34.901 +03:00 [INF] Executed endpoint '_253501_mammadov.Controllers.Home.Index (253501_mammadov)'
+2024-12-06 14:29:34.941 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 2488.8137ms
+2024-12-06 14:29:36.919 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_vs/browserLink - null null
+2024-12-06 14:29:36.919 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-06 14:29:36.936 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 17.5687ms
+2024-12-06 14:29:37.031 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 113.1657ms

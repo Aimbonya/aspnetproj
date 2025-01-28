@@ -31,13 +31,23 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 {
     // Адрес метаданных конфигурации OpenID
     o.MetadataAddress = $"{authServer.Host}/realms/{authServer.Realm}/.well-known/openid-configuration";
-// Authority сервера аутентификации
-o.Authority = $"{authServer.Host}/realms/{authServer.Realm}";
+    // Authority сервера аутентификации
+    o.Authority = $"{authServer.Host}/realms/{authServer.Realm}";
     // Audience для токена JWT
     o.Audience = "account";
     // Запретить HTTPS для использования локальной версии Keycloak
     // В рабочем проекте должно быть true
     o.RequireHttpsMetadata = false;
+});
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin", builder =>
+    {
+        builder.WithOrigins("https://localhost:7131")  // Указываем разрешённый источник
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
 });
 
 builder.Services.AddAuthorization(opt =>
@@ -55,7 +65,7 @@ await DbInitializer.SeedData(app);
 app.UseSwagger();
 app.UseSwaggerUI();
 
-
+app.UseCors("AllowSpecificOrigin");
 app.UseHttpsRedirection();
 
 app.UseAuthentication();

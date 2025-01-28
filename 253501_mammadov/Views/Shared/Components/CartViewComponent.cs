@@ -1,26 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using _253501_mammadov.Extensions;
+using mammadov.Domain.Entities;
+using Microsoft.AspNetCore.Mvc;
 
 namespace _253501_mammadov.Views.Shared.Components
 {
-
-    public class CartModel
-    {
-        public decimal TotalAmount { get; set; }
-        public int ItemCount { get; set; }
-    }
-
     public class CartViewComponent : ViewComponent
     {
-        public async Task<IViewComponentResult> InvokeAsync()
+        private const string CartSessionKey = "cart";
+
+        public IViewComponentResult Invoke()
         {
-
-            var cartModel = new CartModel
-            {
-                TotalAmount = 0,
-                ItemCount = 0
-            };
-
-            return View(cartModel);
+            var cart = HttpContext.Session.GetObject<Cart>(CartSessionKey) ?? new Cart();
+            return View(cart);
         }
     }
 }

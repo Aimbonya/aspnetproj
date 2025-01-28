@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\mammadov.Blazor.SSR.props" />
+</Project>

@@ -1,0 +1,57 @@
+﻿@page "/objects"
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using mammadov.Domain.Entities
+@using mammadov.BlazorWasm.Models
+@using mammadov.BlazorWasm.Services
+@inject IDataService DataService
+@inject IAccessTokenProvider TokenProvider
+@inject HttpClient Http
+
+<PageTitle>Fruits List</PageTitle>
+
+<AuthorizeView>
+    <Authorized>
+        <CategorySelector />
+        <ObjectList SelectedFruit="OnFruitSelected" />  <!-- Передаем событие выбора объекта -->
+        <Pager />
+        <FruitDetails SelectedFruit="SelectedFruit" />  <!-- Передаем выбранный объект в компонент -->
+    </Authorized>
+    <NotAuthorized>
+        <p>You are not authorized to view this content. Please log in.</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    private Fruit SelectedFruit { get; set; }  // Храним выбранный объект
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Получаем токен для авторизации
+            var tokenRequest = await TokenProvider.RequestAccessToken();
+            if (tokenRequest.TryGetToken(out var token))
+            {
+                // Устанавливаем токен в заголовок запроса
+                Http.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token.Value);
+
+                // Загружаем данные через IDataService
+                await DataService.GetFruitsListAsync(1); 
+            }
+            else
+            {
+                Console.WriteLine("Unable to get the token.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred: {ex.Message}");
+        }
+    }
+
+    private void OnFruitSelected(int id)
+    {
+        // Находим выбранный объект по ID и сохраняем в SelectedDish
+        SelectedFruit = DataService.Fruits.FirstOrDefault(d => d.Id == id);
+    }
+}
